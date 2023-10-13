@@ -17,7 +17,9 @@ else
 fi
 ui_print " "
 
-
+# info
+ui_print "- Play Store data will be cleared automatically"
+ui_print " "
 
 
 
