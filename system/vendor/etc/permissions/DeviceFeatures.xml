@@ -32,7 +32,7 @@
     <feature name="android.software.managed_profiles"/>
     <feature name="android.software.securely_removes_users"/>
     <feature name="android.software.vr.mode"/>
-    <unavailable-feature name="android.software.verified_boot"/>
+    <!--feature name="android.software.verified_boot"/-->
     <!--feature name="android.hardware.lowpan"/-->
     <!--feature name="android.hardware.gamepad"/-->
 </permissions>
