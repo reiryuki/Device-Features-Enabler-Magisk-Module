@@ -6,7 +6,6 @@
 - Enables android.software.vr.mode feature that allows changing VR mode in Settings app
 - Enables android.hardware.camera.ar feature that allows installation of Google Play Services for AR app (com.google.ar.core) https://www.apkmirror.com/apk/google-inc/arcore/
 - Enables android.software.incremental_delivery that allows incremental update in Play Store
-- Disables android.software.verified_boot that fixes bootloop if system partition is modified in some devices
 - Enables several other device features
 - Compatiblity is not guaranteed
 
