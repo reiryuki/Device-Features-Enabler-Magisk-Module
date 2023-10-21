@@ -8,7 +8,7 @@
     <feature name="android.hardware.ethernet"/>
     <feature name="android.hardware.faketouch.multitouch.distinct"/>
     <feature name="android.hardware.faketouch.multitouch.jazzhand"/>
-    <feature name="android.hardware.ram.low"/>
+    <!--feature name="android.hardware.ram.low"/-->
     <feature name="android.hardware.sensor.assist"/>
     <feature name="android.hardware.sensor.hifi_sensors"/>
     <feature name="android.hardware.sensor.accelerometer_limited_axes"/>
