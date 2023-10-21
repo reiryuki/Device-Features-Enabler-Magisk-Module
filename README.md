@@ -1,7 +1,6 @@
 # Device Features Enabler Magisk Module
 
 ## Descriptions
-- Enables android.hardware.ram.low feature that allows installing any Go version of Google apps at Play Store
 - Enables android.hardware.audio.pro feature that activates Pro Audio in Telegram app voice call
 - Enables android.software.vr.mode feature that allows changing VR mode in Settings app
 - Enables android.hardware.camera.ar feature that allows installation of Google Play Services for AR app (com.google.ar.core) https://www.apkmirror.com/apk/google-inc/arcore/
@@ -20,14 +19,15 @@
 - Android 13 CrDroid ROM
 
 ## Optionals
-- https://t.me/androidryukimodsdiscussions/60861
+- DFE: https://t.me/androidryukimodsdiscussions/196795
+- Global: https://t.me/androidryukimodsdiscussions/60861
 
 ## Troubleshootings
-- https://t.me/androidryukimodsdiscussions/29836
+- Global: https://t.me/androidryukimodsdiscussions/29836
 
 ## Support & Bug Report
 - https://t.me/androidryukimodsdiscussions/2618
-- If you don't do above, issues will be closed immediately
+- If you don't do above, issues will be closed immediately.
 
 ## Credits and contributors
 - https://t.me/androidryukimodsdiscussions

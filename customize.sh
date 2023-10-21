@@ -1,6 +1,27 @@
 # space
 ui_print " "
 
+# log
+if [ "$BOOTMODE" != true ]; then
+  FILE=/sdcard/$MODID\_recovery.log
+  ui_print "- Log will be saved at $FILE"
+  exec 2>$FILE
+  ui_print " "
+fi
+
+# optionals
+OPTIONALS=/sdcard/optionals.prop
+if [ ! -f $OPTIONALS ]; then
+  touch $OPTIONALS
+fi
+
+# debug
+if [ "`grep_prop debug.log $OPTIONALS`" == 1 ]; then
+  ui_print "- The install log will contain detailed information"
+  set -x
+  ui_print " "
+fi
+
 # info
 MODVER=`grep_prop version $MODPATH/module.prop`
 MODVERCODE=`grep_prop versionCode $MODPATH/module.prop`
@@ -16,6 +37,16 @@ else
   ui_print " MagiskVersionCode=$MAGISK_VER_CODE"
 fi
 ui_print " "
+
+# ram low
+FILE=`find $MODPATH/system -type f -name *.xml`
+if [ "`grep_prop dfe.ram.low $OPTIONALS`" == 1 ]; then
+  ui_print "- Allow installing any Go version of Google apps"
+  ui_print "  at Play Store"
+  sed -i 's|<!--feature name="android.hardware.ram.low"/-->|<feature name="android.hardware.ram.low"/>|g' $FILE
+  sed -i 's|<!--feature name="android.hardware.ram.low" /-->|<feature name="android.hardware.ram.low" />|g' $FILE
+  ui_print " "
+fi
 
 # info
 ui_print "- Play Store data will be cleared automatically"
