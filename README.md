@@ -19,7 +19,7 @@
 - Android 13 CrDroid ROM
 
 ## Optionals
-- DFE: https://t.me/androidryukimodsdiscussions/196795
+- https://t.me/androidryukimodsdiscussions/196795
 - Global: https://t.me/androidryukimodsdiscussions/60861
 
 ## Troubleshootings
