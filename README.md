@@ -16,7 +16,7 @@
 - Reboot
 
 ## Optionals
-- https://t.me/androidryukimodsdiscussions/196795
+- https://t.me/ryukinotes/87
 - Global: https://t.me/ryukinotes/35
 
 ## Troubleshootings
