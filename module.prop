@@ -1,7 +1,7 @@
 id=DeviceFeaturesEnabler
 name=Device Features Enabler
-version=v0.7
-versionCode=7
+version=v0.8
+versionCode=8
 author=Rei Ryuki the Fixer
 description=Enables some missing device features. Compatiblity is not guaranteed.
 
